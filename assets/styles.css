@@ -35,6 +35,36 @@ a {
     text-decoration: none
 }
 
+::-moz-selection {
+    /* Code for Firefox */
+    color: #000;
+    background: #dad9ff;
+}
+
+::selection {
+    color: #000;
+    background: #dad9ff;
+}
+
+body::-webkit-scrollbar {
+    background-color: #ffffff;
+    width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #152e4e;
+    border-radius: 16px;
+    border: 2px #fff;
+}
+
+body::-webkit-scrollbar-button {
+    display: none
+}
+
 a:hover,
 a:focus {
     text-decoration: underline
