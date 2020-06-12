@@ -2,11 +2,17 @@
     "short_name": "Sanjam",
     "name": "Sanjampreet Singh",
     "icons": [{
-        "src": "192x192.jpg",
-        "type": "./assets/image/jpg",
+        "src": "/assets/192x192.jpg",
+        "type": "image/jpg",
         "sizes": "192x192"
+    }, {
+        "src": "/assets/512x512.jpg",
+        "type": "image/jpg",
+        "sizes": "512x512"
     }],
-    "start_url": "/?utm_source=homescreen",
+    "start_url": "/?source=pwa",
+    "display": "standalone",
+    "scope": "/",
     "background_color": "#29b9ee",
     "theme_color": "#29b9ee"
 }
